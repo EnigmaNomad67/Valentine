@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to bottom, #ffe6eb, #fff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+h1 {
+  color: #e63946;
+}
+
+.details {
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.message {
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+button {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #d62839;
+}
